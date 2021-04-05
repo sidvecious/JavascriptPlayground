@@ -1,0 +1,55 @@
+h1 {
+  font-size: 5em;
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  font-size: 2em;
+  font-style: italic;
+}
+
+.kittenlist {
+  border: 1px solid black;
+  width: 700px;
+  margin: 0;
+  padding: 0;
+  height: 80vh;
+  overflow: auto;
+}
+
+.kittenlist li {
+  list-style: none;
+  font-size: 5em;
+  background-color: #055;
+  padding: 5px;
+  margin-bottom: 20px;
+  height: 150px;
+}
+
+.kittenlist li:hover {
+  background-color: #755;
+  outline: 5px solid #700;
+}
+
+.kittenlist li img {
+  margin-right: 20px
+}
+
+.kittenlist li span {
+  display: inline;
+  top: -0.7em;
+  position: relative;
+  color: #099;
+}
+
+#cutest {
+  height: 520px;
+  overflow: hidden;
+}
+
+#cutest_section {
+  position: absolute;
+  top: 0;
+  left: 50vw;
+}
